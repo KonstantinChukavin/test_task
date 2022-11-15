@@ -1,0 +1,13 @@
+@font-face {
+  src: url(./fonts/CormorantGaramond-Regular.ttf) format('ttf');
+  font-family: 'Cormorant Garamond';
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  src: url(./fonts/Outfit-Regular.ttf) format('ttf');
+  font-family: 'Outfit';
+  font-weight: 400;
+  font-style: normal;
+}
