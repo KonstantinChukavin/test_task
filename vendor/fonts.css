@@ -1,13 +1,27 @@
 @font-face {
-  src: url(./fonts/CormorantGaramond-Regular.ttf) format('ttf');
-  font-family: 'Cormorant Garamond';
+  src: url(./fonts/Roboto-Regular.ttf) format('ttf');
+  font-family: 'Roboto';
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  src: url(./fonts/Outfit-Regular.ttf) format('ttf');
-  font-family: 'Outfit';
+  src: url(./fonts/Roboto-Light.ttf) format('ttf');
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-style: Light;
+}
+
+@font-face {
+  src: url(./fonts/YanoneKaffeesatz-Regular.ttf) format('ttf');
+  font-family: 'Yanone Kaffeesatz';
   font-weight: 400;
   font-style: normal;
+}
+
+@font-face {
+  src: url(./fonts/Roboto-Bold.ttf) format('ttf');
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-style: Bold;
 }

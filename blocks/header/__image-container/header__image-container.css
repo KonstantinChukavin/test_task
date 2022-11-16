@@ -1,4 +1,5 @@
 .header__image-container {
+    width: 100%;
     max-width: 1505px;
     background-image: url(../../../vendor/image/Bkg_1.png);
     background-size: contain;

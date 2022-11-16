@@ -2,13 +2,55 @@
 /*__________________________________________________________*/
 @import url(../vendor/fonts.css);
 /*__________________________________________________________*/
-@import url(../bloks/body/body.css);
+@import url(../blocks/body/body.css);
 /*__________________________________________________________*/
-@import url(../bloks/header/header.css);
-@import url(../bloks/header/__image-container/header__image-container.css);
-@import url(../bloks/header/__button/header__button.css);
+@import url(../blocks/link/link.css);
 /*__________________________________________________________*/
-@import url(../bloks/image-logo/image-logo.css);
+@import url(../blocks/button/button.css);
 /*__________________________________________________________*/
-@import url(../bloks/hexagon/hexagon.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__image-container/header__image-container.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__line/header__line.css);
+@import url(../blocks/header/__lists/header__lists.css);
+@import url(../blocks/header/__link/_scrol/header__link_scrol.css);
+/*__________________________________________________________*/
+@import url(../blocks/image-logo/image-logo.css);
+/*__________________________________________________________*/
+@import url(../blocks/hexagon/hexagon.css);
+/*__________________________________________________________*/
+@import url(../blocks/navigation/navigation.css);
+/*__________________________________________________________*/
+@import url(../blocks/content/content.css);
+/*__________________________________________________________*/
+@import url(../blocks/panel/panel.css);
+/*__________________________________________________________*/
+@import url(../blocks/content/__container/content__container.css);
+/*__________________________________________________________*/
+@import url(../blocks/sub-title/sub-title.css);
+/*__________________________________________________________*/
+@import url(../blocks/title/title.css);
+@import url(../blocks/title/__about-the-company/title__about-the-company.css);
+/*__________________________________________________________*/
+@import url(../blocks/sub-title/sub-title.css);
+@import url(../blocks/section/section.css);
+@import url(../blocks/section/__about-the-company/section__about-the-company.css);
+@import url(../blocks/section/__title/section__title.css);
+@import url(../blocks/section/__services/section__services.css);
+@import url(../blocks/section/__hexogon/section__hexogon.css);
+/*__________________________________________________________*/
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__servises/cards_servises.css);
+/*__________________________________________________________*/
+@import url(../blocks/card-item/card-item.css);
+@import url(../blocks/card-item/__image/card-item__image.css);
+@import url(../blocks/card-item/__servises/card-item__servises.css);
+/*__________________________________________________________*/
+@import url(../blocks/foooter/foooter.css);
+/*__________________________________________________________*/
+@import url(../blocks/author/author.css);
+@import url(../blocks/author/__name/author__name.css);
+/*__________________________________________________________*/
+@import url(../blocks/contact-item/contact-item.css);
 /*__________________________________________________________*/

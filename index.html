@@ -14,14 +14,17 @@
 <body class="body">
     <header class="header">
         <nav class="navigation">
-            <a class="link" href="#"><svg width="30" height="1" viewBox="0 0 30 1" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <line y1="0.5" x2="30" y2="0.5" stroke="white" />
-                </svg> О компании</a>
-            <a class="link" href="#"><svg width="30" height="1" viewBox="0 0 30 1" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <line y1="0.5" x2="30" y2="0.5" stroke="white" />
-                </svg> Услуги</a>
+            <ul class="header__lists">
+                <li class="header__list-item"><a class="link header__link" href="#about-us"><img class="header__line"
+                            src="./vendor/image/Line.svg" alt="line"> О
+                        компании</a></li>
+                <li class="header__list-item"><a class="link header__link" href="#services"><img class="header__line"
+                            src="./vendor/image/Line.svg" alt="line">
+                        Услуги</a></li>
+            </ul>
+            <a class="link header__link header__link_scrol" href="#contact"><img class="header__line"
+                    src="./vendor/image/scrol.svg" alt="image scrol">
+                Скрольте вниз</a>
         </nav>
         <div class="header__image-container">
             <button class="button header__button" type="button">Заказать звонок</button>
@@ -32,12 +35,102 @@
     </header>
     <main class="content">
         <div class="panel">
-
+            <!--Видимо втут всплывающая панель меню-->
         </div>
-        <section class="section"></section>
-        <section class="section"></section>
-        <section class="section"></section>
+        <div class="content__container">
+            <section class="section section__about-the-company" id="about-us">
+                <img class="section__hexogon" src="./vendor/image/hexagon_section.svg" alt="hexogon imafe">
+                <h2 class="title title__about-the-company">О компании</h2>
+                <p class="sub-title">Агентство коммерческой недвижимости
+                    &laquo;Региональная Бизнес Недвижимость&raquo; оказывает
+                    полный спектр услуг на&nbsp;рынке коммерческой
+                    недвижимости.
+                    Мы&nbsp;работаем со&nbsp;всеми основными направлениями
+                    коммерческой недвижимости: офисной, складской,
+                    торговой, промышленной. Оказываем нашим клиентам
+                    услуги в&nbsp;области брокериджа, структурирования инвестиционных транзакций, инвестиционных покупок
+                    и
+                    продаж, а&nbsp;также стратегического консалтинга, оценки и
+                    аналитики.</p>
+                <h3 class="title section__title">Мы являемся экспертами в:</h3>
+                <div class="cards">
+                    <div class="card-item"><img class="card-item__image" src="./vendor/image/chek_point.svg"
+                            alt="check point image">Подборе объектов на&nbsp;покупку/аренду для Клиента<p
+                            class="sub-title">
+                        </p>
+                    </div>
+                    <div class="card-item"><img class="card-item__image" src="./vendor/image/chek_point.svg"
+                            alt="check point image">
+                        <p class="sub-title">Поиске арендатора/покупателя на&nbsp;Объект</p>
+                    </div>
+                    <div class="card-item"><img class="card-item__image" src="./vendor/image/chek_point.svg"
+                            alt="check point image">
+                        <p class="sub-title">Продаже/аренде объектов коммерческой
+                            недвижимости, такие как&nbsp;&mdash; офисная, торговая, складская, промышленная</p>
+                    </div>
+                    <div class="card-item"><img class="card-item__image" src="./vendor/image/chek_point.svg"
+                            alt="check point image">
+                        <p class="sub-title">ДДУ&nbsp;&mdash; доверительное управление недвижимостью</p>
+                    </div>
+                </div>
+            </section>
+            <section class="section section__services" id="services">
+                <div class="cards cards_servises">
+                    <img class="section__hexogon" src="./vendor/image/hexagon_section.svg" alt="hexogon imafe">
+                    <div class="card-item card-item__servises"><img class="card-item__image"
+                            src="./vendor/image/Group_1.svg" alt="check point image">
+                        <p class="sub-title">Разработка
+                            концепции<br> и&nbsp;проектирование</p>
+                    </div>
+                    <div class="card-item card-item__servises"><img class="card-item__image"
+                            src="./vendor/image/Group_2.svg" alt="check point image">
+                        <p class="sub-title">Сопровождение строительных проектов</p>
+                    </div>
+                    <div class="card-item card-item__servises"><img class="card-item__image"
+                            src="./vendor/image/Group_3.svg" alt="check point image">
+                        <p class="sub-title">Коммерческое<br> управление</p>
+                    </div>
+                    <div class="card-item card-item__servises"><img class="card-item__image"
+                            src="./vendor/image/Group_4.svg" alt="check point image">
+                        <p class="sub-title">Брокеридж<br>
+                            (сдача в&nbsp;аренду)</p>
+                    </div>
+                    <div class="card-item card-item__servises"><img class="card-item__image"
+                            src="./vendor/image/Group_5.svg" alt="check point image">
+                        <p class="sub-title">Техническая эксплуатация<br>
+                            и&nbsp;обслуживание
+                        </p>
+                    </div>
+                    <div class="card-item card-item__servises"><img class="card-item__image"
+                            src="./vendor/image/Group_6.svg" alt="check point image">
+                        <p class="sub-title">Ведение бухгалтерского учета
+                            и&nbsp;финансовой отчетности</p>
+                    </div>
+                    <div class="card-item card-item__servises"><img class="card-item__image"
+                            src="./vendor/image/Group_7.svg" alt="check point image">
+                        <p class="sub-title">Юридическое<br>
+                            сопровождение</p>
+                    </div>
+                    <div class="card-item card-item__servises"><img class="card-item__image"
+                            src="./vendor/image/Group_8.svg" alt="check point image">
+                        <p class="sub-title">Консалтинговые<br>
+                            услуги
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
+    <footer class="foooter">
+        <div class="author" id="contact">
+            <p class="author__name">&copy; Чукавин Константин</p>
+            <a href="https://github.com/KonstantinChukavin/test_task" target="_blank" class="contact-item"><img
+                    src="./vendor/image/github.svg" class="image-button author__image-button"></a>
+            <a href="mailto:kainkoss@gmail.com" target="_blank" class="contact-item"><img src="./vendor/image/mail2.svg"
+                    class="image-button author__image-button"></a>
+        </div>
+    </footer>
 </body>
+<script src="./vendor/index.js"></script>
 
 </html>

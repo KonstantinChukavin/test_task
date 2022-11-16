@@ -1,0 +1,8 @@
+.section__hexogon {
+    width: 107px;
+    height: 120px;
+    position: absolute;
+    left: -50px;
+    top: -25px;
+    z-index: -1;
+}

@@ -1,0 +1,9 @@
+.content__container {
+    margin-top: 80px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../../../vendor/image/Bkg_3.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
