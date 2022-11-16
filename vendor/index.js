@@ -114,4 +114,5 @@ buttonHide.addEventListener('click', function () {
     popup.classList.remove('popup_opened');
 })
 
+
 // Устал, никак не соображу как закрыть кликом по облости
