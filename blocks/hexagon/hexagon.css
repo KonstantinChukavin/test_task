@@ -5,3 +5,9 @@
     right: 77px;
     bottom: 77px;
 }
+
+@media screen and (max-width: 880px) {
+    .hexagon {
+        display: none;
+    }
+}

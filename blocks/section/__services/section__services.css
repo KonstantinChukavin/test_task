@@ -2,3 +2,9 @@
     margin-top: 100px;
     margin-right: 135px;
 }
+
+@media screen and (max-width: 880px) {
+    .section__services {
+        margin-right: 35px;
+    }
+}

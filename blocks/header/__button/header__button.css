@@ -6,3 +6,10 @@
     line-height: 24px;
     color: #fff;
 }
+
+@media screen and (max-width: 880px) {
+    .header__button {
+        top: 20px;
+        right: 20px;
+    }
+}

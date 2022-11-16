@@ -3,3 +3,18 @@
     height: 350px;
     margin: 160px 275px 430px 140px;
 }
+
+@media screen and (max-width: 1805px) {
+    .image-logo {
+        width: 545px;
+        height: 175px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .image-logo {
+        width: 300px;
+        height: 80px;
+        margin: 75px 150px 150px 75px;
+    }
+}

@@ -7,3 +7,9 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 1805px) {
+    .header {
+        background-image: none;
+    }
+}

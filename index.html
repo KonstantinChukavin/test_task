@@ -13,6 +13,23 @@
 
 <body class="body">
     <header class="header">
+        <div class="burger">
+            <div id="menu">
+                <div id="menu-bar" onclick="menuOnClick()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                <nav class="nav" id="nav">
+                    <ul>
+                        <li><a href="#about-us">О компании</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#contact">Скрольте вниз</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="menu-bg" id="menu-bg"></div>
+        </div>
         <nav class="navigation">
             <ul class="header__lists">
                 <li class="header__list-item"><a class="link header__link" href="#about-us"><img class="header__line"
@@ -79,41 +96,46 @@
                     <img class="section__hexogon" src="./vendor/image/hexagon_section.svg" alt="hexogon imafe">
                     <div class="card-item card-item__servises"><img class="card-item__image"
                             src="./vendor/image/Group_1.svg" alt="check point image">
-                        <p class="sub-title">Разработка
+                        <p class="sub-title" id="text" onmouseover="change1()" onmouseout="change2()">Разработка
                             концепции<br> и&nbsp;проектирование</p>
                     </div>
                     <div class="card-item card-item__servises"><img class="card-item__image"
                             src="./vendor/image/Group_2.svg" alt="check point image">
-                        <p class="sub-title">Сопровождение строительных проектов</p>
+                        <p class="sub-title" id="text1" onmouseover="change11()" onmouseout="change3()">Сопровождение
+                            строительных проектов</p>
                     </div>
                     <div class="card-item card-item__servises"><img class="card-item__image"
                             src="./vendor/image/Group_3.svg" alt="check point image">
-                        <p class="sub-title">Коммерческое<br> управление</p>
+                        <p class="sub-title" id="text2" onmouseover="change12()" onmouseout="change4()">Коммерческое<br>
+                            управление</p>
                     </div>
                     <div class="card-item card-item__servises"><img class="card-item__image"
                             src="./vendor/image/Group_4.svg" alt="check point image">
-                        <p class="sub-title">Брокеридж<br>
+                        <p class="sub-title" id="text3" onmouseover="change13()" onmouseout="change5()">Брокеридж<br>
                             (сдача в&nbsp;аренду)</p>
                     </div>
                     <div class="card-item card-item__servises"><img class="card-item__image"
                             src="./vendor/image/Group_5.svg" alt="check point image">
-                        <p class="sub-title">Техническая эксплуатация<br>
+                        <p class="sub-title" id="text4" onmouseover="change14()" onmouseout="change6()">Техническая
+                            эксплуатация<br>
                             и&nbsp;обслуживание
                         </p>
                     </div>
                     <div class="card-item card-item__servises"><img class="card-item__image"
                             src="./vendor/image/Group_6.svg" alt="check point image">
-                        <p class="sub-title">Ведение бухгалтерского учета
+                        <p class="sub-title" id="text5" onmouseover="change15()" onmouseout="change7()">Ведение
+                            бухгалтерского учета
                             и&nbsp;финансовой отчетности</p>
                     </div>
                     <div class="card-item card-item__servises"><img class="card-item__image"
                             src="./vendor/image/Group_7.svg" alt="check point image">
-                        <p class="sub-title">Юридическое<br>
+                        <p class="sub-title" id="text6" onmouseover="change16()" onmouseout="change8()">Юридическое<br>
                             сопровождение</p>
                     </div>
                     <div class="card-item card-item__servises"><img class="card-item__image"
                             src="./vendor/image/Group_8.svg" alt="check point image">
-                        <p class="sub-title">Консалтинговые<br>
+                        <p class="sub-title" id="text7" onmouseover="change17()" onmouseout="change9()">
+                            Консалтинговые<br>
                             услуги
                         </p>
                     </div>
@@ -130,6 +152,17 @@
                     class="image-button author__image-button"></a>
         </div>
     </footer>
+    <div class="popup popup_opened">
+        <form class="popup__container" name="form">
+            <button type="button" class="popup__button-close"></button>
+            <h3 class="popup__title">Заказать звонок</h3>
+            <fieldset class="popup__fieldset">
+                <input class="popup__field-text" type="text" placeholder="Имя" name="name">
+                <input class="popup__field-text" type="tel" placeholder="Номер телефона" name="phone">
+                <button type="button" class="popup__submit-button">Сохранить</button>
+            </fieldset>
+        </form>
+    </div>
 </body>
 <script src="./vendor/index.js"></script>
 
