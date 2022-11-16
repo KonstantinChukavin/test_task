@@ -104,7 +104,6 @@ function change9() { // Функция возвращает текст в исх
 const buttonShow = document.querySelector('.header__button');
 const buttonHide = document.querySelector('.popup__button-close');
 const popup = document.querySelector('.popup');
-const body = document.querySelector('.body');
 
 buttonShow.addEventListener('click', function (evt) {
     evt.preventDefault();
@@ -114,3 +113,5 @@ buttonShow.addEventListener('click', function (evt) {
 buttonHide.addEventListener('click', function () {
     popup.classList.remove('popup_opened');
 })
+
+// Устал, никак не соображу как закрыть кликом по облости
